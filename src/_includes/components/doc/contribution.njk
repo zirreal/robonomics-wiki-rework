@@ -1,5 +1,8 @@
 {# retutn to main after tests #}
-{% set ghLink = "https://github.com/airalab/robonomics-wiki/blob/test-code/src" + page.filePathStem + ".md" %}
+{% set ghLink = "https://github.com/zirreal/robonomics-wik-reworki/blob/main/src" + page.filePathStem + ".md" %}
+
+
+{% if github.length %}
 
 {% set ghLastUpdate = github | getCommit(page.fileSlug + ".md")%}
 
@@ -36,3 +39,4 @@
 	{%  endif %}
  </section>
 {% endif %}
+{%  endif %}
