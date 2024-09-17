@@ -3,7 +3,7 @@ const eleventyFetch = require("@11ty/eleventy-fetch");
 // TODO: remove "sha/ref" parameters after tests
 
 const getDocs = async () => {
-	let url = 'https://api.github.com/repos/airalab/robonomics-wiki/contents/src/docs?ref=test-code';
+	let url = 'https://api.github.com/repos/zirreal/robonomics-wiki-rework/contents/src/docs';
 
   try {
     let json = await eleventyFetch(url, {
@@ -25,8 +25,8 @@ const getDocs = async () => {
 };
 
 module.exports = async function () {
-  let user = "airalab";
-	let repo = "robonomics-wiki"
+  let user = "zirreal";
+	let repo = "robonomics-wiki-rework"
   let url = `https://api.github.com/repos/${user}/${repo}/commits`;
 
 	const arr = await getDocs();
@@ -35,7 +35,7 @@ module.exports = async function () {
 	arr.forEach(async d => {
 		if(d.name.includes('md')) {
 			try {
-				let json = await eleventyFetch(url + `?sha=test-code&path=src/docs/${d.name}`, {
+				let json = await eleventyFetch(url + `?path=src/docs/${d.name}`, {
 					duration: "3d",
 					type: "json",
 					fetchOptions: {
