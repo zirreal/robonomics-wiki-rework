@@ -1,0 +1,8 @@
+site/
+node_modules
+.cache
+dist/
+.temp/
+.DS_Store
+.env
+.editorconfig
