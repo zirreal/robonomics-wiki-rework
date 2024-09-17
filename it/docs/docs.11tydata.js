@@ -854,7 +854,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -982,7 +982,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1110,7 +1110,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1238,7 +1238,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 

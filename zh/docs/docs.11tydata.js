@@ -854,7 +854,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -982,7 +982,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1110,7 +1110,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1238,7 +1238,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1365,7 +1365,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F"> 创建一个问题</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%E5%BD%93%E9%97%A8%E6%89%93%E5%BC%80%E6%97%B6%E6%94%B6%E5%88%B0%E9%80%9A%E7%9F%A5"> 创建一个问题</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">

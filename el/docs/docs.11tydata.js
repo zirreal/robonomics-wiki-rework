@@ -854,7 +854,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -982,7 +982,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1110,7 +1110,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1238,7 +1238,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1365,7 +1365,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%CE%94%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%AF%CE%B1+%CE%BB%CE%BF%CE%B3%CE%B1%CF%81%CE%B9%CE%B1%CF%83%CE%BC%CE%BF%CF%8D+%CE%B3%CE%B9%CE%B1+%CF%84%CE%BF+Robonomics+Parachain"> Δημιουργήστε ένα θέμα</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%CE%A8%CE%B7%CF%86%CE%B9%CE%B1%CE%BA%CE%AC+%CE%94%CE%AF%CE%B4%CF%85%CE%BC%CE%B1"> Δημιουργήστε ένα θέμα</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">

@@ -854,7 +854,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -982,7 +982,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1110,7 +1110,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1238,7 +1238,7 @@
     <form class="robo-wiki-feedback-form__form">
 
 			<h-captcha id="signupCaptcha"
-				site-key="ES_a0b37ccc46674a22b2ac966394d6279d"
+				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
 				tabindex="0"></h-captcha>
 
@@ -1365,7 +1365,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5+%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9+%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8%2C+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%89%D0%B5%D0%B9+%D0%BD%D0%B0+Ethereum"> Создать проблему</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5+%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9+%D0%BF%D1%80%D0%B8+%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B8+%D0%B4%D0%B2%D0%B5%D1%80%D0%B8"> Создать проблему</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
