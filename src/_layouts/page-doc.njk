@@ -4,17 +4,15 @@
 		<section class="section">
 			<div class="layout page">
 
-				{% if title %}
-					{% if page.lang == 'zh'%}
+				{% if title and vars.env == 'production' %}
+					{% if page.lang == 'zh' or page.lang == 'ko'%}
 						{% set fontFamily = "Noto Sans" %}
-					{% elif page.lang == 'ar' %}
+					{% elif page.lang == 'ar' or page.lang == 'el' %}
 						{% set fontFamily = "Arabic" %}
 					{% else %}
 						{% set fontFamily = "Roboto" %}
 					{% endif %}
-					{% if vars.env == 'production' %}
 						{% ogImage "./src/_includes/ogImage.og.njk", { title: title, fontFamily : fontFamily } %}
-					{% endif %}
 				{% endif %}
 
 				<div id="sidebarDocs" popover class="sidebar page__sidebar custom-scroll">
