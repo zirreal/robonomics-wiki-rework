@@ -190,6 +190,7 @@
 		<section class="section">
 			<div class="layout page">
 
+
 				
 
 				<div id="sidebarDocs" popover class="sidebar page__sidebar custom-scroll">
@@ -1365,7 +1366,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+Come+modificare+Wiki"> Creare un problema</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+Creare+identit%C3%A0+digitale+gestita+da+Ethereum"> Creare un problema</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">

@@ -190,6 +190,7 @@
 		<section class="section">
 			<div class="layout page">
 
+
 				
 
 				<div id="sidebarDocs" popover class="sidebar page__sidebar custom-scroll">
@@ -1365,7 +1366,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D0%94%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3"> Створити проблему</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D1%96+%D0%B1%D0%BB%D0%B8%D0%B7%D0%BD%D1%8E%D0%BA%D0%B8"> Створити проблему</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
