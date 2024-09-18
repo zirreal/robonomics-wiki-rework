@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			// splitting paths according to chosen locale
 			if(allLanguages.includes(splitPath[3]) && lang !== 'en') {
-				splitPath = path.replace(splitPath[3], '/').split('/')
+				splitPath = path.replace(`${splitPath[3]}`, '/').split('/')
 				newPath = `/${lang}/` + splitPath.slice(5, splitPath.length - 1).join("/");
 			} else if (lang === 'en') {
 				splitPath = path.replace(splitPath[3], '/').split('/')

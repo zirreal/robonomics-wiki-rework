@@ -111,7 +111,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("_redirects");
 
   // same path
-  ['src/assets/fonts/', 'src/assets/images/', 'src/assets/og/', '_redirects'].forEach(
+  ['src/assets/fonts/', 'src/assets/images/', 'src/assets/og/', 'src/assets/images/og/'].forEach(
     path => eleventyConfig.addPassthroughCopy(path)
   );
 
@@ -164,7 +164,19 @@ module.exports = function (eleventyConfig) {
       fonts: [
 				{
           name: 'Noto Sans',
-          data: fs.readFileSync('./src/assets/fonts/NotoSans-Bold.ttf'),
+          data: fs.readFileSync('./src/assets/fonts/NotoSans-SC.otf'),
+          weight: 700,
+          style: 'normal',
+        },
+				{
+          name: 'Noto Sans KO',
+          data: fs.readFileSync('./src/assets/fonts/NotoSans-KO.otf'),
+          weight: 700,
+          style: 'normal',
+        },
+				{
+          name: 'Noto Sans EL',
+          data: fs.readFileSync('./src/assets/fonts/NotoSans-EL.ttf'),
           weight: 700,
           style: 'normal',
         },

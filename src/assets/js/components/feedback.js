@@ -1,4 +1,5 @@
 const captcha = require('@hcaptcha/vanilla-hcaptcha');
+import { GSCRIPT_ID } from 'env'
 
 document.addEventListener('DOMContentLoaded', function ()  {
 
@@ -23,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function ()  {
 			currForm.querySelector('.robo-wiki-feedback-form__btn-wrapper--wait').classList.remove('hide')
 			currForm.querySelector('.robo-wiki-feedback-form__btn').disabled = true;
 
-			let response = await fetch( 'https://script.google.com/macros/s/' + process.env.GSCRIPT_ID + '/exec',
+			let response = await fetch( 'https://script.google.com/macros/s/' + GSCRIPT_ID + '/exec',
 			{
 					method: 'POST',
 					headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
