@@ -1354,6 +1354,15 @@
 
 					        
 
+
+
+
+
+ <section class="docContribution">
+	
+ </section>
+
+
 						
 					</div>
         </div>
@@ -1366,7 +1375,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+Datalog"> 문제를 생성하세요.</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%EC%9C%84%ED%82%A4+%ED%8E%B8%EC%A7%91+%EB%B0%A9%EB%B2%95"> 문제를 생성하세요.</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">

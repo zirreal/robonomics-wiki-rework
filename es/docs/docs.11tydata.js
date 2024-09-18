@@ -1354,6 +1354,15 @@
 
 					        
 
+
+
+
+
+ <section class="docContribution">
+	
+ </section>
+
+
 						
 					</div>
         </div>
@@ -1366,7 +1375,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+C%C3%B3mo+editar+Wiki"> Crear un problema</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+Gemelos+Digitales"> Crear un problema</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
