@@ -187,7 +187,7 @@
   </header>
 <div class="all-content custom-scroll">
 	<main class="main post layout__page post">
-		<section class="section">
+		<section class="section doc-section">
 			<div class="layout page">
 
 				
@@ -1374,7 +1374,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D8%AF%D8%A7%D8%AA%D8%A7%D9%84%D9%88%D8%AC"> إنشاء مشكلة</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%A6%D9%85+%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9"> إنشاء مشكلة</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">

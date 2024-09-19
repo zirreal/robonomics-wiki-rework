@@ -187,7 +187,7 @@
   </header>
 <div class="all-content custom-scroll">
 	<main class="main post layout__page post">
-		<section class="section">
+		<section class="section doc-section">
 			<div class="layout page">
 
 				
