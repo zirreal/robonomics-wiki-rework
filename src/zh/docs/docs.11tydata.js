@@ -16,7 +16,7 @@ module.exports = {
 	},
 	img: function(data) {
 		if(data.page) {
-			return './assets/images/og-images/' + data.page.url.slice(1,-1).toLowerCase().replace(/\//g, '-') + '.png';
+			return '/assets/images/og-images/' + data.page.url.slice(1,-1).toLowerCase().replace(/\//g, '-') + '.png';
 		}
 	}},
 	permalink: "zh/docs/{{ page.fileSlug }}/index.html"
