@@ -17,7 +17,7 @@
 					{% else %}
 						{% set fontFamily = "Roboto" %}
 					{% endif %}
-						{# {% ogImage "./src/_includes/ogImage.og.njk", { title: title, fontFamily : fontFamily } %} #}
+						{% ogImage "./src/_includes/ogImage.og.njk", { title: title, fontFamily : fontFamily } %}
 				{% endif %}
 
 				<div id="sidebarDocs" popover class="sidebar page__sidebar custom-scroll">
