@@ -190,7 +190,6 @@
 		<section class="section">
 			<div class="layout page">
 
-
 				
 
 				<div id="sidebarDocs" popover class="sidebar page__sidebar custom-scroll">
@@ -1375,7 +1374,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%E4%B8%BA+Robonomics+Parachain+%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7"> 创建一个问题</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%E5%88%9B%E5%BB%BA%E7%94%B1%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%BF%90%E8%A1%8C%E7%9A%84%E6%95%B0%E5%AD%97%E8%BA%AB%E4%BB%BD"> 创建一个问题</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">

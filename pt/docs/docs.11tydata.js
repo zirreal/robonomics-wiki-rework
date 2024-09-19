@@ -190,7 +190,6 @@
 		<section class="section">
 			<div class="layout page">
 
-
 				
 
 				<div id="sidebarDocs" popover class="sidebar page__sidebar custom-scroll">
@@ -1375,7 +1374,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+G%C3%AAmeos+Digitais"> Criar um problema</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+Receba+Notifica%C3%A7%C3%B5es+Quando+a+Porta+Abrir"> Criar um problema</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
