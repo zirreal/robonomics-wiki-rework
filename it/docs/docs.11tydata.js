@@ -40,7 +40,7 @@
 <meta property="og:locale" content="it">
 <meta property="og:title" content="Robonomics Wiki">
 <meta property="og:description" content="2 else return fileContentsplit...">
-<meta property="og:image" content="./og-images/it-docs-docs.11tydata.j.png">
+<meta property="og:image" content="./assets/images/og-images/it-docs-docs.11tydata.j.png">
 <meta property="og:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AIRA_Robonomics">
@@ -48,7 +48,7 @@
 <meta name="twitter:url" content="https://wiki.robonomics.network/">
 <meta name="twitter:title" content="Robonomics Wiki">
 <meta name="twitter:description" content="2 else return fileContentsplit...">
-<meta name="twitter:image" content="./og-images/it-docs-docs.11tydata.j.png">
+<meta name="twitter:image" content="./assets/images/og-images/it-docs-docs.11tydata.j.png">
 <meta name="twitter:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <link rel="canonical" href="https://wiki.robonomics.network/">
 

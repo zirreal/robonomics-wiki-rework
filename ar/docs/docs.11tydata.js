@@ -40,7 +40,7 @@
 <meta property="og:locale" content="ar">
 <meta property="og:title" content="Robonomics Wiki">
 <meta property="og:description" content="2 else return fileContentsplit...">
-<meta property="og:image" content="./og-images/ar-docs-docs.11tydata.j.png">
+<meta property="og:image" content="./assets/images/og-images/ar-docs-docs.11tydata.j.png">
 <meta property="og:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AIRA_Robonomics">
@@ -48,7 +48,7 @@
 <meta name="twitter:url" content="https://wiki.robonomics.network/">
 <meta name="twitter:title" content="Robonomics Wiki">
 <meta name="twitter:description" content="2 else return fileContentsplit...">
-<meta name="twitter:image" content="./og-images/ar-docs-docs.11tydata.j.png">
+<meta name="twitter:image" content="./assets/images/og-images/ar-docs-docs.11tydata.j.png">
 <meta name="twitter:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <link rel="canonical" href="https://wiki.robonomics.network/">
 
@@ -1374,7 +1374,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%A6%D9%85+%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9"> إنشاء مشكلة</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84+%D8%B9%D9%84%D9%89+%D8%A5%D8%B4%D8%B9%D8%A7%D8%B1+%D8%B9%D9%86%D8%AF+%D9%81%D8%AA%D8%AD+%D8%A7%D9%84%D8%A8%D8%A7%D8%A8"> إنشاء مشكلة</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
