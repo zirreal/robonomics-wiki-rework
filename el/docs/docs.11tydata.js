@@ -1374,7 +1374,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%CE%A8%CE%B7%CF%86%CE%B9%CE%B1%CE%BA%CE%AC+%CE%94%CE%AF%CE%B4%CF%85%CE%BC%CE%B1"> Δημιουργήστε ένα θέμα</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%CE%9B%CE%AC%CE%B2%CE%B5%CF%84%CE%B5+%CE%95%CE%B9%CE%B4%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7+%CE%8C%CF%84%CE%B1%CE%BD+%CE%91%CE%BD%CE%BF%CE%AF%CE%B3%CE%B5%CE%B9+%CE%B7+%CE%A0%CF%8C%CF%81%CF%84%CE%B1"> Δημιουργήστε ένα θέμα</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
