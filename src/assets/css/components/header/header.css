@@ -33,7 +33,11 @@
 	font-weight: 700;
 }
 
-.header-logo img { max-width: var(--width-logo-sign) }
+.header-logo img { max-width: var(--width-logo-sign); width: 100% }
+
+.header-logo span {
+	vertical-align: top;
+}
 
 .header-logo > *:not(:last-child), .header-nav > *:not(:last-child) {
 	margin-right: 1rem;
