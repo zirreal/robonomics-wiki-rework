@@ -4,8 +4,7 @@
 		<section class="section">
 			<div class="layout page">
 
-
-				{% if title and vars.env === 'production' %}
+				{% if title and vars.env == 'image' %}
 					{% if page.lang == 'zh' %}
 						{% set fontFamily = "Noto Sans" %}
 					{% elif page.lang == 'ar' %}
@@ -17,7 +16,9 @@
 					{% else %}
 						{% set fontFamily = "Roboto" %}
 					{% endif %}
-						{% ogImage "./src/_includes/ogImage.og.njk", { title: title, fontFamily : fontFamily } %}
+						{% if vars.env == 'image' %}
+							{% include 'ogImageWrapper.njk' %}
+						{% endif %}
 				{% endif %}
 
 				<div id="sidebarDocs" popover class="sidebar page__sidebar custom-scroll">

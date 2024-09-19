@@ -159,42 +159,46 @@ module.exports = function (eleventyConfig) {
     useTransform: true
   });
 	eleventyConfig.addPlugin(metagen);
-	eleventyConfig.addPlugin(EleventyPluginOgImage, {
-    satoriOptions: {
-      fonts: [
-				{
-          name: 'Noto Sans',
-          data: fs.readFileSync('./src/assets/fonts/NotoSans-SC.otf'),
-          weight: 700,
-          style: 'normal',
-        },
-				{
-          name: 'Noto Sans KO',
-          data: fs.readFileSync('./src/assets/fonts/NotoSans-KO.otf'),
-          weight: 700,
-          style: 'normal',
-        },
-				{
-          name: 'Noto Sans EL',
-          data: fs.readFileSync('./src/assets/fonts/NotoSans-EL.ttf'),
-          weight: 700,
-          style: 'normal',
-        },
-				{
-          name: 'Roboto',
-          data: fs.readFileSync('./src/assets/fonts/roboto-bold-webfont.woff'),
-          weight: 700,
-          style: 'normal',
-        },
-				{
-          name: 'Arabic',
-          data: fs.readFileSync('./src/assets/fonts/NotoSansArabic-Bold.ttf'),
-          weight: 700,
-          style: 'normal',
-        },
-      ],
-    },
-  });
+	if (!fs.existsSync('./src/assets/images/og-images') || process.env.ELEVENTY_ENV === 'image') {
+		eleventyConfig.addPlugin(EleventyPluginOgImage, {
+			outputDir: 'src/assets/images/og-images/',
+			urlPath: '/assets/images/og-images/',
+			satoriOptions: {
+				fonts: [
+					{
+						name: 'Noto Sans',
+						data: fs.readFileSync('./src/assets/fonts/NotoSans-SC.otf'),
+						weight: 700,
+						style: 'normal',
+					},
+					{
+						name: 'Noto Sans KO',
+						data: fs.readFileSync('./src/assets/fonts/NotoSans-KO.otf'),
+						weight: 700,
+						style: 'normal',
+					},
+					{
+						name: 'Noto Sans EL',
+						data: fs.readFileSync('./src/assets/fonts/NotoSans-EL.ttf'),
+						weight: 700,
+						style: 'normal',
+					},
+					{
+						name: 'Roboto',
+						data: fs.readFileSync('./src/assets/fonts/roboto-bold-webfont.woff'),
+						weight: 700,
+						style: 'normal',
+					},
+					{
+						name: 'Arabic',
+						data: fs.readFileSync('./src/assets/fonts/NotoSansArabic-Bold.ttf'),
+						weight: 700,
+						style: 'normal',
+					},
+				],
+			},
+		});
+	}	
 
 	// assets
 	eleventyConfig.addPlugin(require('./config/css-config.js'));
