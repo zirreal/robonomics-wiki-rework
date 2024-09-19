@@ -40,7 +40,7 @@
 <meta property="og:locale" content="uk">
 <meta property="og:title" content="Robonomics Wiki">
 <meta property="og:description" content="2 else return fileContentsplit...">
-<meta property="og:image" content="./assets/images/og-images/uk-docs-docs.11tydata.j.png">
+<meta property="og:image" content="/assets/images/og-images/uk-docs-docs.11tydata.j.png">
 <meta property="og:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AIRA_Robonomics">
@@ -48,7 +48,7 @@
 <meta name="twitter:url" content="https://wiki.robonomics.network/">
 <meta name="twitter:title" content="Robonomics Wiki">
 <meta name="twitter:description" content="2 else return fileContentsplit...">
-<meta name="twitter:image" content="./assets/images/og-images/uk-docs-docs.11tydata.j.png">
+<meta name="twitter:image" content="/assets/images/og-images/uk-docs-docs.11tydata.j.png">
 <meta name="twitter:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <link rel="canonical" href="https://wiki.robonomics.network/">
 
@@ -1374,7 +1374,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D1%96+%D0%B1%D0%BB%D0%B8%D0%B7%D0%BD%D1%8E%D0%BA%D0%B8"> Створити проблему</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%D0%9E%D1%82%D1%80%D0%B8%D0%BC%D1%83%D0%B9%D1%82%D0%B5+%D1%81%D0%BF%D0%BE%D0%B2%D1%96%D1%89%D0%B5%D0%BD%D0%BD%D1%8F%2C+%D0%BA%D0%BE%D0%BB%D0%B8+%D0%B2%D1%96%D0%B4%D1%87%D0%B8%D0%BD%D1%8F%D1%94%D1%82%D1%8C%D1%81%D1%8F+%D0%B4%D0%B2%D0%B5%D1%80%D1%96"> Створити проблему</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">

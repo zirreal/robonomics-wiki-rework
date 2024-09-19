@@ -40,7 +40,7 @@
 <meta property="og:locale" content="ja">
 <meta property="og:title" content="Robonomics Wiki">
 <meta property="og:description" content="2 else return fileContentsplit...">
-<meta property="og:image" content="./assets/images/og-images/ja-docs-docs.11tydata.j.png">
+<meta property="og:image" content="/assets/images/og-images/ja-docs-docs.11tydata.j.png">
 <meta property="og:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AIRA_Robonomics">
@@ -48,7 +48,7 @@
 <meta name="twitter:url" content="https://wiki.robonomics.network/">
 <meta name="twitter:title" content="Robonomics Wiki">
 <meta name="twitter:description" content="2 else return fileContentsplit...">
-<meta name="twitter:image" content="./assets/images/og-images/ja-docs-docs.11tydata.j.png">
+<meta name="twitter:image" content="/assets/images/og-images/ja-docs-docs.11tydata.j.png">
 <meta name="twitter:image:alt" content="Learn Robonomics through tutorials and practically useful experimenting. This documentation is designed to help you connect robots or code dApps within Robonomics Network.">
 <link rel="canonical" href="https://wiki.robonomics.network/">
 
@@ -1374,7 +1374,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+Robonomics+Parachain%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B"> 問題を作成する</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+ESP32%E3%81%8B%E3%82%89Extrinsic%E3%82%92%E9%80%81%E4%BF%A1%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95"> 問題を作成する</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
