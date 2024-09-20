@@ -1,13 +1,13 @@
-  {# $store.state.currentReaction === text #}
+
 	<div tabindex="0"  class="robo-wiki-feedback__wrapper">
     <button class="robo-wiki-feedback__item" data-text="{{text}}">
       <div class="robo-wiki-feedback__checkbox">
-        <input id="checkbox-{{text}}" type="checkbox" name="checkbox" class="custom-checkbox__field" >
+        <input id="checkbox-{{id}}" type="checkbox" name="checkbox" class="custom-checkbox__field" >
         <span class="custom-checkbox__content"></span>
       </div>
       <div class="robo-wiki-feedback__content">
 				{% svg img %}
-        <label for="checkbox-{{text}}">{{text | t}}</;>
+        <label for="checkbox-{{id}}">{{text | t}}</label>
       </div>
     </button>
 		{# form #}
