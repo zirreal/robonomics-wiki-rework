@@ -3,7 +3,7 @@ title: Dispositivos Zigbee no Zigbee2MQTT
 
 contributors: [nakata5321, PaTara43]
 tools:
-  - Zigbee2MQTT 1.37.1
+  - Zigbee2MQTT 1.38.0
     https://github.com/Koenkk/zigbee2mqtt/
 
 ---
@@ -14,8 +14,8 @@ tools:
 
 ## Pareando Dispositivos
 
-Abra um navegador da web e acesse `http://%PC_IP_ADDRESS%:8099`. Você pode encontrar o endereço IP do Raspberry Pi
-usando o [aplicativo móvel Fing](https://www.fing.com/products) ou a [ferramenta de linha de comando nmap](https://vitux.com/find-devices-connected-to-your-network-with-nmap/). Se configurou tudo no seu PC, use `http://localhost:8099`.
+Abra um navegador da web e vá para `http://%PC_IP_ADDRESS%:8099`. Você pode encontrar o endereço IP do Raspberry Pi
+usando o [aplicativo móvel Fing](https://www.fing.com/products) ou a [ferramenta de linha de comando nmap](https://vitux.com/find-devices-connected-to-your-network-with-nmap/). Se você configurou tudo no seu PC, use `http://localhost:8099`.
 
 Você verá a interface web do Zigbee2MQTT:
 

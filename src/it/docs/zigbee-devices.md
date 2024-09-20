@@ -3,7 +3,7 @@ title: Dispositivi Zigbee in Zigbee2MQTT
 
 contributors: [nakata5321, PaTara43]
 tools:
-  - Zigbee2MQTT 1.37.1
+  - Zigbee2MQTT 1.38.0
     https://github.com/Koenkk/zigbee2mqtt/
 
 ---
@@ -24,9 +24,9 @@ Vedrai l'interfaccia web di Zigbee2MQTT:
 
 
 È ora di collegare il tuo dispositivo intelligente.
-Innanzitutto, premi il pulsante `Permit join (All)` nella parte superiore dell'interfaccia web di Zigbee2MQTT.
+Innanzitutto, premi il pulsante `Permit join (All)` in cima all'interfaccia web di Zigbee2MQTT.
 
-Poi, inizia ad accoppiare i dispositivi. Il modo più comune per mettere un dispositivo in modalità di connessione è tenere premuto il suo pulsante di accensione o accenderlo/spegnere 5 volte. Assicurati che Zigbee2MQTT sia in esecuzione.
+Poi, inizia ad accoppiare i dispositivi. Il modo più comune per mettere un dispositivo in modalità di connessione è tenere premuto il suo pulsante di accensione o accenderli/spegnere 5 volte. Assicurati che Zigbee2MQTT sia in esecuzione.
 
 Quando il dispositivo si connette, li vedrai nell'interfaccia web:
 

@@ -3,7 +3,7 @@ title: Zigbee-пристрої в Zigbee2MQTT
 
 contributors: [nakata5321, PaTara43]
 tools:
-  - Zigbee2MQTT 1.37.1
+  - Zigbee2MQTT 1.38.0
     https://github.com/Koenkk/zigbee2mqtt/
 
 ---
@@ -31,6 +31,6 @@ tools:
 
 {% roboWikiPicture {src:"docs/home-assistant/device_connected.jpg", alt:"device_connected"} %}{% endroboWikiPicture %}
 
-Тепер ви повинні побачити цей датчик у вашому веб-інтерфейсі Home Assistant. Перейдіть до `Налаштування` -> `Пристрої та служби` -> `Пристрої`.
+Тепер ви повинні побачити цей датчик у вашому веб-інтерфейсі Home Assistant. Перейдіть до `Налаштування` -> `Пристрої та сервіси` -> `Пристрої`.
 
 Після додавання всіх датчиків, ви можете закрити веб-інтерфейс Zigbee2MQTT.

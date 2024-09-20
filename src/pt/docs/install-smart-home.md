@@ -2,27 +2,29 @@
 title: Instalação de Casa Inteligente
 contributors: [nakata5321, PaTara43]
 tools:
-  - Home Assistant 2024.4.4
+  - Home Assistant 2024.6.2
     https://github.com/home-assistant/core
-  - Integração Robonomics Home Assistant 1.8.3
+  - Integração Robonomics Home Assistant 1.8.6
     https://github.com/airalab/homeassistant-robonomics-integration
-  - IPFS 0.27.0
+  - IPFS 0.29.0
     https://docs.ipfs.tech/
-  - Zigbee2MQTT 1.37.1
+  - Zigbee2MQTT 1.38.0
     https://github.com/Koenkk/zigbee2mqtt
 ---
 
-**Bem-vindo ao guia de instalação do Home Assistant com integração Robonomics. O Home Assistant é um sistema de automação residencial de código aberto que fornece um hub centralizado para controlar dispositivos inteligentes em sua rede doméstica. Ao integrar com Robonomics, um serviço em nuvem descentralizado, você pode aprimorar a funcionalidade e segurança da sua casa inteligente. Neste artigo, forneceremos instruções passo a passo sobre como instalar o Home Assistant com Robonomics, dando-lhe a capacidade de automatizar e controlar vários aspectos da sua casa usando uma solução segura e descentralizada. Vamos começar!**
+**Bem-vindo ao guia de instalação do Home Assistant com integração Robonomics. O Home Assistant é um sistema de automação residencial de código aberto que fornece um hub centralizado para controlar dispositivos inteligentes em sua rede doméstica. Ao integrar com Robonomics, um serviço em nuvem descentralizado, você pode aprimorar a funcionalidade e a segurança da sua casa inteligente. Neste artigo, forneceremos instruções passo a passo sobre como instalar o Home Assistant com Robonomics, dando a você a capacidade de automatizar e controlar vários aspectos da sua casa usando uma solução segura e descentralizada. Vamos começar!**
+
+{% roboWikiPicture {src:"docs/home-assistant/INSTALLATION.png", alt:"instalação"} %}{% endroboWikiPicture %}
 
 ## Demonstração
 
-Aqui está um exemplo de uma instalação completa de Casa Inteligente e integração Robonomics. Tenha em mente que o tempo necessário pode variar dependendo da conexão com a Internet.
+Aqui está um exemplo de uma instalação completa de Casa Inteligente e integração Robonomics. Tenha em mente que o tempo necessário pode variar dependendo doConexão à internet.
 
 {% roboWikiVideo {videos:[{src: 'QmULXX4rjkuHuCF42c3V37MxEk6HpnFpJF4bZSQPR2c3Xo', type: 'mp4'}], attrs:['loop', 'controls', 'autoplay']} %}{% endroboWikiVideo %}
 
-## Hardware necessário para a instalação
+## Hardware necessário para instalação
 
-Se você ainda não incorporou o Home Assistant à sua configuração de casa inteligente, é importante estar ciente do equipamento necessário para estabelecer um sistema de casa inteligente completo do zero. A equipe Robonomics recomenda o uso do Raspberry Pi 4 como servidor de casa inteligente. **Mas é possível configurar tudo em seu PC.**
+Se ainda não incorporou o Home Assistant em sua configuração de casa inteligente, é importante estar ciente do equipamento necessário para estabelecer um sistema completo de casa inteligente do zero. A equipe da Robonomics recomenda o uso do Raspberry Pi 4 como servidor de casa inteligente. **Mas é possível configurar tudo em seu PC.**
 
 
 {% roboWikiGridWrapper {columns: '3', textAlign: 'center', flexible: true} %}
@@ -30,7 +32,7 @@ Se você ainda não incorporou o Home Assistant à sua configuração de casa in
 	<b>Raspberry Pi 4 (pelo menos 2 GB de RAM)</b>
 	{% endroboWikiGrid %}
 	{% roboWikiGrid %} 	{% roboWikiPicture {src:"docs/home-assistant/need_3.png", alt:"need"} %}{% endroboWikiPicture %}
-	<b>Cartão SD 16Gb</b> {% endroboWikiGrid %}
+	<b>Cartão SD de 16Gb</b> {% endroboWikiGrid %}
 	{% roboWikiGrid %} 	{% roboWikiPicture {src:"docs/home-assistant/need_7.png", alt:"need"} %}{% endroboWikiPicture %}
 	<a href="https://www.zigbee2mqtt.io/information/supported_adapters.html" target="_blank"> <b> Adaptador Zigbee (Opcional) </b> </a>  {% endroboWikiGrid %}
 {% endroboWikiGridWrapper %}
@@ -42,34 +44,30 @@ Se você ainda não incorporou o Home Assistant à sua configuração de casa in
 	<b>Computador para configuração</b>  {% endroboWikiGrid %}
 {% endroboWikiGridWrapper %}
 
+
 ## 1. Instalar Pré-requisitos
 
-O Docker Robonomics contém:
+O Robonomics Docker contém:
 - Home Assistant
 - IPFS
-- Broker e Integração MQTT
-- Zigbee2MQTT
-- Proxy libp2p
+- Broker MQTT e Integração- Zigbee2MQTT
+- proxy libp2p
 - Integração Robonomics
 
-Este artigo mostrará o processo de instalação no sistema Ubuntu. Primeiro, você precisa instalar os pacotes a seguir:
+Este artigo mostrará o processo de instalação no sistema Ubuntu. Primeiro, você precisa instalar os seguintes pacotes:
 
 
 {% codeHelper {copy: true}%}
 
 ```
-sudo apt-get install wget unzip git
+sudo apt-get install wget unzip git jq
 ```
 
 {% endcodeHelper %}
 
 Em seguida, você precisa instalar o Docker no PC. Encontre as instruções de instalação no [site oficial](https://docs.docker.com/engine/install/).
 
-<robo-wiki-note type="warning" title="Informação importante">
-
-  Adicione seu usuário ao grupo docker para iniciar os contêineres do Docker sem permissões de root. Encontre as [instruções aqui](https://docs.docker.com/engine/install/linux-postinstall/).
-
-</robo-wiki-note>
+{% roboWikiNote {type: "warning", title: "Informação importante" }%} Adicione seu usuário ao grupo docker para iniciar os contêineres do docker sem permissões de root. Encontre as [instruções aqui](https://docs.docker.com/engine/install/linux-postinstall/). {% endroboWikiNote %}
 
 ## 2. Configurar
 
@@ -91,15 +89,14 @@ Em seguida, crie um arquivo `.env` a partir do `template.env`:
 {% codeHelper {copy: true}%}
 
 ```
-mv template.env .env
+cp template.env .env
 ```
 
 {% endcodeHelper %}
 
 Depois disso, você pode abrir o arquivo `.env` e editar os valores padrão, como:
-- Versões dos pacotes
 - caminho para o repositório onde serão armazenadas todas as pastas de configurações.
-- fuso horário em ["nome do banco de dados tz"](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+- fuso horário em ["nome do banco de dados tz"](https://en.wikipedia.org/wiki/Lista_de_fusos_horários_do_banco_de_dados_tz).
 
 ## 3. Iniciar
 
@@ -124,7 +121,7 @@ Durante o processo de instalação, as seguintes situações podem ocorrer:
 este script criará todos os repositórios necessários e iniciará os contêineres do Docker
 Não é possível encontrar a localização do coordenador Zigbee. Insira-o e execute o script novamente. O diretório /dev/serial/by-id/ não existe
 Você deseja continuar sem o coordenador Zigbee? Ele não iniciará o contêiner Zigbee2MQTT.
-Você deseja prosseguir? (s/n)
+Você deseja prosseguir? (Y/n)
 ```
 
 {% endcodeHelper %}
@@ -137,12 +134,20 @@ Você deseja prosseguir? (s/n)
 ```
 este script criará todos os repositórios necessários e iniciará os contêineres do Docker
 o coordenador Zigbee está instalado
-Você tem mais de 1 dispositivo conectado. Escolha um
+Você tem mais de 1 dispositivo conectado. Por favor, escolha um
 1) /dev/serial/by-id/usb-ITEAD_SONOFF_Zigbee_3.0_USB_Dongle_Plus_V2_20240123142833-if00
 2) /dev/serial/by-id/usb-Silicon_Labs_Sonoff_Zigbee_3.0_USB_Dongle_Plus_0001-if00-port0
 #?
 ```
 
 {% endcodeHelper %}
+
+## Pós-instalação
+
+Depois que tudo estiver iniciado, você pode usar o script `update.sh` para atualizar a versão dos pacotes do Docker. Este script irá baixar novas versões, 
+excluir as versões antigas dos pacotes e reiniciar tudo automaticamente, salvando todas as suas configurações.
+
+Para parar tudo, use o script `stop.sh`.
+
 
 Isso é tudo. Continue para o próximo artigo.

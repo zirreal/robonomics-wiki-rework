@@ -1,31 +1,31 @@
 ---
-title: Robonomics Smart Home Overview
+title: Robonomicsスマートホーム概要
 
 contributors: [Fingerling42, nakata5321]
 ---
 
-## ブロックチェーンで安全なIoT
+## ブロックチェーンでセキュアなIoT
 
-あなたのスマートホームには、現代のIoT市場がさまざまなソリューションを提供しています。しかし、通常は中央集権型のクラウドプロバイダーに縛られたり、高価な専用ゲートウェイに依存したりします。その結果、ユーザーとしては、ハードウェアやインフラストラクチャのベンダーに常に依存してスマートシステムを実行する必要があります。同時に、クラウド統計や分析なしでは、あなたのスマートホームは本当にスマートとは言えません。
+あなたのスマートホームには、現代のIoT市場がさまざまなソリューションを提供しています。しかし、通常は中央集権型のクラウドプロバイダーに縛られたり、高価な専用ゲートウェイに依存することがあります。その結果、ユーザーとしてはハードウェアやインフラストラクチャのベンダーに常に依存してスマートシステムを実行することになります。同時に、クラウド統計や分析なしでは、あなたのスマートホームは本当にスマートとは言えません。
 
 {% roboWikiVideo {videos:[{src: 'QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa', type: 'mp4'}, {src: 'QmdZKkPJCa9GEN43iUBX81jfrFTDxcn7J6wWURrwNVwcKx', type:'webm'}], attrs:['loop'], cover: "cover-3.png"} %}{% endroboWikiVideo %}
 
 **現在のスマートホームには、次の2つの主な問題があります:**
 
 1. ベンダーや第三者と共有するデータをコントロールできません。
-2. 中央集権型クラウドサーバーのシャットダウンに対して脆弱です。
+2. 中央集権型クラウドサーバーのシャットダウンに対して、あなたのスマートホームは脆弱です。
 
 {% roboWikiPicture {src:"docs/home-assistant/ha-problems.png", alt:"image"} %}{% endroboWikiPicture %}
 
-これらの問題を解決するために、私たちは、**安全**で**サーバーレス**かつ**未来志向**の分散型クラウドであるRobonomicsを試してみることを提案します。
+これらの問題を解決するために、Robonomicsをお試しいただくことをお勧めします。Robonomicsは、**セキュア**で**サーバーレス**かつ**未来志向**の分散型クラウドです。
 
 {% roboWikiPicture {src:"docs/home-assistant/ha-robonomics.png", alt:"warning"} %}{% endroboWikiPicture %}
 
-## 企業から独立したクラウドへのステップ
+## 企業フリークラウドへのステップ
 
-Home Assistantをデバイス通信アプリケーションとして使用し、Robonomicsを企業から独立した分散型クラウドプラットフォームとして使用して、手頃な価格のスマートホームを作成するための簡単な手順をご紹介します。 Robonomicsは、現代の安全なWeb3テクノロジを活用し、プロセス全体でセキュリティを強化します。
+Home Assistantをデバイス通信アプリケーションとして使用し、Robonomicsを企業フリーで分散型のクラウドプラットフォームとして使用して、手頃な価格のスマートホームを作成するための簡単な手順をご紹介します。Robonomicsは、現代のセキュアなWeb3テクノロジを活用し、プロセス全体でセキュリティを強化しています。
 
-{% roboWikiPicture {src:"docs/home-assistant/robonomics-secure-blockchain-smart-home_3.png", alt:"warning"} %}{% endroboWikiPicture %}
+{% roboWikiPicture {src:"docs/home-assistant/OVERVIEW.png", alt:"warning"} %}{% endroboWikiPicture %}
 
 ## ここからスマートホームを始めましょう
 

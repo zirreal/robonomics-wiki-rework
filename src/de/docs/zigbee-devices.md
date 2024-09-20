@@ -3,7 +3,7 @@ title: Zigbee-Geräte in Zigbee2MQTT
 
 contributors: [nakata5321, PaTara43]
 tools:
-  - Zigbee2MQTT 1.37.1
+  - Zigbee2MQTT 1.38.0
     https://github.com/Koenkk/zigbee2mqtt/
 
 ---
@@ -14,7 +14,7 @@ tools:
 
 ## Gerätekopplung
 
-Öffnen Sie einen Webbrowser und gehen Sie zu `http://%PC_IP_ADDRESS%:8099`. Sie können die IP-Adresse des Raspberry Pi mit der [Fing Mobile App](https://www.fing.com/products) oder dem [nmap CLI-Tool](https://vitux.com/find-devices-connected-to-your-network-with-nmap/) finden. Wenn Sie alles auf Ihrem PC eingerichtet haben, verwenden Sie `http://localhost:8099`.
+Öffnen Sie einen Webbrowser und gehen Sie zu `http://%PC_IP_ADDRESS%:8099`. Sie können die IP-Adresse des Raspberry Pi mithilfe der [Fing-Mobil-App](https://www.fing.com/products) oder des [nmap-CLI-Tools](https://vitux.com/find-devices-connected-to-your-network-with-nmap/) finden. Wenn Sie alles auf Ihrem PC eingerichtet haben, verwenden Sie `http://localhost:8099`.
 
 Sie sehen die Web-Benutzeroberfläche von Zigbee2MQTT:
 
@@ -22,10 +22,10 @@ Sie sehen die Web-Benutzeroberfläche von Zigbee2MQTT:
 {% roboWikiPicture {src:"docs/home-assistant/z2m-webinterface.jpg", alt:"z2m-webinterface"} %}{% endroboWikiPicture %}
 
 
-Es ist Zeit, Ihr Smart-Gerät zu verbinden.
-Drücken Sie zuerst die Schaltfläche `Permit join (All)` oben in der Web-Benutzeroberfläche von Zigbee2MQTT.
+Es ist Zeit, Ihr intelligentes Gerät anzuschließen.
+Drücken Sie zuerst die Schaltfläche `Beitritt erlauben (Alle)` oben in der Web-Benutzeroberfläche von Zigbee2MQTT.
 
-Dann beginnen Sie, Geräte zu koppeln. Der häufigste Weg, ein Gerät in den Verbindungsmodus zu versetzen, besteht darin, seine Ein-/Aus-Taste gedrückt zu halten oder sie 5 Mal ein- und auszuschalten. Stellen Sie sicher, dass Zigbee2MQTT läuft.
+Dann beginnen Sie, Geräte zu koppeln. Der häufigste Weg, ein Gerät in den Verbindungszustand zu versetzen, besteht darin, seine Ein-/Aus-Taste gedrückt zu halten oder sie 5 Mal ein- und auszuschalten. Stellen Sie sicher, dass Zigbee2MQTT läuft.
 
 Wenn das Gerät verbunden ist, sehen Sie es in der Web-Benutzeroberfläche:
 

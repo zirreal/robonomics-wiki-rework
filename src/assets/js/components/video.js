@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 		const toggleAutoplay = (video) => {
 			video.muted = true;
 				let playPromise = video.play();
-				if (playPromise !== undefined) {
+				console.log(playPromise)
+				if (playPromise && playPromise !== undefined) {
 					playPromise.then((_) => {
 						let observer = new IntersectionObserver(
 							(entries) => {
@@ -20,7 +21,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 										if (entry.intersectionRatio !== 1 && !video.paused) {
 												video.pause();
 										} else  {
-												video.play();
+											if(video?.paused && 
+												video?.currentTime > 0 && !video?.ended) video.play();
 										}
 									}
 								});
@@ -42,7 +44,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 					v.parentElement.load();
 
 					if(v.src.includes(readyGateway)) {
-						toggleAutoplay(v.parentElement)
+						toggleAutoplay(v.parentElement) 
+						return;
 					}
 				} 
 

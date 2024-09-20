@@ -25,7 +25,7 @@ Para resolver ambos os problemas, sugerimos que você experimente o Robonomics, 
 
 Aqui estão alguns passos simples para criar uma casa inteligente acessível usando o Home Assistant como aplicativo de comunicação de dispositivos e o Robonomics como plataforma de nuvem descentralizada sem corporações. O Robonomics aproveita tecnologias Web3 modernas e seguras, garantindo segurança aprimorada durante todo o processo.
 
-{% roboWikiPicture {src:"docs/home-assistant/robonomics-secure-blockchain-smart-home_3.png", alt:"aviso"} %}{% endroboWikiPicture %}
+{% roboWikiPicture {src:"docs/home-assistant/OVERVIEW.png", alt:"aviso"} %}{% endroboWikiPicture %}
 
 ## Comece aqui sua casa inteligente
 

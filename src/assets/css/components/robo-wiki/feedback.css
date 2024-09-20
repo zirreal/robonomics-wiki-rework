@@ -74,9 +74,9 @@
 	width: 100%;
 }
 
-.robo-wiki-feedback__item span{
+.robo-wiki-feedback__item label{
 	font-size: 1rem;
-	color: var(--color-brown-dark);
+	color: #000;
 }
 
 .robo-wiki-feedback__checkbox {

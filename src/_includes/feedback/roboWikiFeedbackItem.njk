@@ -2,12 +2,12 @@
 	<div tabindex="0"  class="robo-wiki-feedback__wrapper">
     <button class="robo-wiki-feedback__item" data-text="{{text}}">
       <div class="robo-wiki-feedback__checkbox">
-        <input id="checkbox" type="checkbox" name="checkbox" class="custom-checkbox__field" >
+        <input id="checkbox-{{text}}" type="checkbox" name="checkbox" class="custom-checkbox__field" >
         <span class="custom-checkbox__content"></span>
       </div>
       <div class="robo-wiki-feedback__content">
 				{% svg img %}
-        <span>{{text | t}}</span>
+        <label for="checkbox-{{text}}">{{text | t}}</;>
       </div>
     </button>
 		{# form #}

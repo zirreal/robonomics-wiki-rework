@@ -25,7 +25,7 @@ To solve both problems, we suggest you to try Robonomics, our **secure**, **serv
 
 Here are some simple steps to create an affordable smart home using Home Assistant as a device communication application and Robonomics as a corporate-free, decentralized cloud platform. Robonomics leverages modern and secure Web3 technologies, ensuring enhanced security throughout the process.
 
-{% roboWikiPicture {src:"docs/home-assistant/robonomics-secure-blockchain-smart-home_3.png", alt:"warning"} %}{% endroboWikiPicture %}
+{% roboWikiPicture {src:"docs/home-assistant/OVERVIEW.png", alt:"warning"} %}{% endroboWikiPicture %}
 
 ## Start here your smart home
 

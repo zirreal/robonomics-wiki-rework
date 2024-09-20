@@ -2,7 +2,7 @@
 title: Home Assistant Initialisierung
 contributors: [nakata5321, PaTara43]
 tools:
-  - Home Assistant 2024.5.4
+  - Home Assistant 2024.6.2
     https://github.com/home-assistant/core
 ---
 
@@ -18,7 +18,7 @@ Wenn Sie alles auf Ihrem PC eingerichtet haben, verwenden Sie `http://localhost:
 
 {% roboWikiVideo {videos:[{src: 'QmYd1Mh2VHVyF3WgvFsN3NFkozXscnCVmEV2YG86UKtK3C', type: 'mp4'}], attrs:['loop', 'controls', 'autoplay']} %}{% endroboWikiVideo %}
 
-1. Geben Sie auf der ersten Seite einen Namen, Benutzernamen, ein Passwort ein und klicken Sie auf die Schaltfläche `KONTO ERSTELLEN`.
+1. Geben Sie auf der ersten Seite einen Namen, Benutzernamen, Passwort ein und klicken Sie auf die Schaltfläche `KONTO ERSTELLEN`.
 
 2. Geben Sie auf dem nächsten Bildschirm einen Namen für Ihr Zuhause ein und legen Sie Ihren Standort und das Einheitensystem fest. Klicken Sie auf `ERKENNEN`, um Ihren Standort zu finden und basierend auf diesem Standort Ihre Zeitzone und Ihr Einheitensystem festzulegen. Wenn Sie Ihren Standort nicht senden möchten, können Sie diese Werte manuell festlegen.
 

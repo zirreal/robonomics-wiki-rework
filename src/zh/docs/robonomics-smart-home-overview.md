@@ -6,7 +6,7 @@ contributors: [Fingerling42, nakata5321]
 
 ## 区块链保障的安全物联网
 
-对于您的智能家居，现代物联网市场提供了各种解决方案。但通常您会受限于集中式云提供商或昂贵的专有网关。结果是，作为用户，您始终依赖于硬件和基础设施供应商来运行您的智能系统。同时，您的智能家居如果没有云统计和分析，就无法真正智能。
+对于您的智能家居，现代物联网市场提供了各种解决方案。但通常您会受限于集中式云提供商或昂贵的专有网关。结果是，作为用户，您始终依赖硬件和基础设施供应商来运行您的智能系统。同时，您的智能家居如果没有云统计和分析，就无法真正智能。
 
 {% roboWikiVideo {videos:[{src: 'QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa', type: 'mp4'}, {src: 'QmdZKkPJCa9GEN43iUBX81jfrFTDxcn7J6wWURrwNVwcKx', type:'webm'}], attrs:['loop'], cover: "cover-3.png"} %}{% endroboWikiVideo %}
 
@@ -25,7 +25,7 @@ contributors: [Fingerling42, nakata5321]
 
 以下是创建一个经济实惠的智能家居的简单步骤，使用Home Assistant作为设备通信应用程序，Robonomics作为无企业、去中心化云平台。Robonomics利用现代安全的Web3技术，确保整个过程的增强安全性。
 
-{% roboWikiPicture {src:"docs/home-assistant/robonomics-secure-blockchain-smart-home_3.png", alt:"warning"} %}{% endroboWikiPicture %}
+{% roboWikiPicture {src:"docs/home-assistant/OVERVIEW.png", alt:"warning"} %}{% endroboWikiPicture %}
 
 ## 从这里开始您的智能家居
 

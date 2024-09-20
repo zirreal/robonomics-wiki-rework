@@ -3,15 +3,28 @@ title: Configuración de integración de Robonomics
 
 contributors: [LoSk-p, nakata5321, Fingerling42]
 tools:
-  - Integración de Robonomics Home Assistant 1.8.3
+  - Integración de Robonomics Home Assistant 1.8.6
     https://github.com/airalab/homeassistant-robonomics-integration
 ---
 
 **En este artículo, agregarás Robonomics a Home Assistant. Esto permite que Home Assistant registre datalogs con datos cifrados en Robonomics Parachain y escuche comandos de lanzamiento desde la parachain para controlar dispositivos inteligentes. La integración utiliza IPFS para almacenar datos y enviar hashes de IPFS a funciones de datalog o lanzamiento.**
 
+{% roboWikiPicture {src: 'docs/home-assistant/integration-setup.png', alt: 'configuración de integración'}%} {% endroboWikiPicture %}
+
+En primer lugar, necesitas crear una configuración para tu panel de control. Para ello, abre tu panel de control de Home Assistant y en la esquina superior derecha presiona el botón "Editar panel" (un lápiz).
+En el pop-up abierto, haz clic en el icono de tres puntos y selecciona el botón "Tomar control":
+
+{% roboWikiPicture {src: 'docs/home-assistant/take-control.png', alt: 'configuración de integración'}%} {% endroboWikiPicture %}
+
+Presiona "Tomar control" una vez más:
+
+{% roboWikiPicture {src: 'docs/home-assistant/take-control2.png', alt: 'configuración de integración'}%} {% endroboWikiPicture %}
+
+Ahora puedes instalar la integración de Robonomics. Para hacerlo, sigue estos pasos:
+ 
 {% roboWikiVideo {videos:[{src: 'QmQp66J943zbF6iFdkKQpBikSbm9jV9La25bivKd7cz6fD', type: 'mp4'}], attrs:['loop', 'controls', 'autoplay']} %}{% endroboWikiVideo %}
 
-1. En la interfaz web de Home Assistant, ve a `Configuración` -> `Dispositivos y Servicios` y presiona `AGREGAR INTEGRACIÓN`. Busca `Robonomics`.
+1. En la interfaz web de Home Assistant ve a `Configuración` -> `Dispositivos y Servicios` y presiona `AGREGAR INTEGRACIÓN`. Busca `Robonomics`.
 
 2. Haz clic en Robonomics y completa la configuración:
 

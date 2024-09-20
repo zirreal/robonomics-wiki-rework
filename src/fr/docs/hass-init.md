@@ -2,7 +2,7 @@
 title: Initialisation de Home Assistant
 contributors: [nakata5321, PaTara43]
 tools:
-  - Home Assistant 2024.5.4
+  - Home Assistant 2024.6.2
     https://github.com/home-assistant/core
 ---
 
@@ -20,7 +20,7 @@ Si vous avez configuré tout sur votre PC, utilisez `http://localhost:8123`.
 
 1. Sur la première page, saisissez un nom, un nom d'utilisateur, un mot de passe et cliquez sur le bouton `CRÉER UN COMPTE`.
 
-2. À l'écran suivant, saisissez un nom pour votre domicile, définissez votre emplacement et votre système d'unités. Cliquez sur `DÉTECTER` pour trouver votre emplacement et définir votre fuseau horaire et votre système d'unités en fonction de cet emplacement. Si vous ne souhaitez pas envoyer votre emplacement, vous pouvez définir ces valeurs manuellement.
+2. À l'écran suivant, saisissez un nom pour votre domicile, définissez votre emplacement et votre système d'unités. Cliquez sur `DÉTECTER` pour trouver votre emplacement et définir votre fuseau horaire et votre système d'unités en fonction de cet emplacement. Si vous ne souhaitez pas partager votre emplacement, vous pouvez définir ces valeurs manuellement.
 
 3. Ensuite, Home Assistant affichera tous les appareils qu'il a découverts sur votre réseau. Ne vous inquiétez pas si vous voyez moins d'éléments que ce qui est montré ci-dessous ; vous pouvez toujours ajouter des appareils manuellement plus tard. Pour l'instant, cliquez simplement sur `TERMINER` et vous serez sur l'écran principal de Home Assistant.
 

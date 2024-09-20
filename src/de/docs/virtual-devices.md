@@ -6,6 +6,8 @@ contributors: [nakata5321]
 
 **Dieser Artikel zeigt Ihnen, wie Sie virtuelle Geräte in einem Smart Home erstellen können, damit Sie sehen können, wie die tatsächliche Plattform aussieht.**
 
+{% roboWikiPicture {src:"docs/home-assistant/virtual-sensors.png", alt:"virtueller Sensor"} %}{% endroboWikiPicture %}
+
 ## Integration installieren
 
 Um virtuelle Geräte zu verwenden, müssen Sie die ["Demo"-Integration](https://www.home-assistant.io/integrations/demo/) installieren.
@@ -18,7 +20,7 @@ mit dem Namen "homeassistant". Gehen Sie hinein. Öffnen Sie die Datei `configur
 
 ```
 ...
-# Beispielkonfiguration.yaml Eintrag
+# Beispielkonfiguration.yaml-Eintrag
 demo:
 ...
 ```
@@ -26,7 +28,7 @@ demo:
 {% endcodeHelper %}
 
 
-Danach starten Sie Home Assistant über die Webschnittstelle neu. Wenn das Smart Home neu startet, finden Sie alle virtuellen Geräte unter den "Demo"-Entitäten.
+Danach starten Sie Home Assistant über die Webschnittstelle neu. Wenn das Smart Home neu startet, finden Sie alle virtuellen Geräte in den "Demo"-Entitäten.
 Finden Sie sie unter `Einstellungen -> Geräte & Dienste -> Demo`. Alle diese Entitäten können Ihrem Dashboard hinzugefügt werden.
 
-{% roboWikiPicture {src:"docs/home-assistant/demo-entities.png", alt:"demo-entities"} %}{% endroboWikiPicture %}
+{% roboWikiPicture {src:"docs/home-assistant/demo-entities.png", alt:"Demo-Entitäten"} %}{% endroboWikiPicture %}

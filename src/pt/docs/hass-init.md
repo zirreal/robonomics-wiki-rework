@@ -2,7 +2,7 @@
 title: Inicialização do Home Assistant
 contributors: [nakata5321, PaTara43]
 tools:
-  - Home Assistant 2024.5.4
+  - Home Assistant 2024.6.2
     https://github.com/home-assistant/core
 ---
 
@@ -10,8 +10,8 @@ tools:
 
 {% roboWikiPicture {src:"docs/home-assistant/ha_init.png", alt:"ha_init"} %}{% endroboWikiPicture %}
 
-Você está começando com a criação da conta do proprietário do Home Assistant. Esta conta é de administrador e pode fazer quaisquer alterações.
-Abra o navegador da web e vá para `http://%PC_IP_ADDRESS%:8123`. Você pode encontrar o endereço IP do Raspberry Pi usando o [aplicativo móvel Fing](https://www.fing.com/products) ou a [ferramenta de linha de comando nmap](https://vitux.com/find-devices-connected-to-your-network-with-nmap/).
+Você começará criando a conta do proprietário do Home Assistant. Esta conta é de administrador e pode fazer quaisquer alterações.
+Abra um navegador da web e acesse `http://%PC_IP_ADDRESS%:8123`. Você pode encontrar o endereço IP do Raspberry Pi usando o [aplicativo móvel Fing](https://www.fing.com/products) ou a [ferramenta de linha de comando nmap](https://vitux.com/find-devices-connected-to-your-network-with-nmap/).
 Se você configurou tudo em seu PC, use `http://localhost:8123`.
 
 {% roboWikiNote {type: "note"}%} O endereço IP pode mudar com o tempo, devido às configurações do roteador {% endroboWikiNote %}

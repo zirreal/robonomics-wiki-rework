@@ -2,7 +2,7 @@
 title: Inizializzazione di Home Assistant
 contributors: [nakata5321, PaTara43]
 tools:
-  - Home Assistant 2024.5.4
+  - Home Assistant 2024.6.2
     https://github.com/home-assistant/core
 ---
 

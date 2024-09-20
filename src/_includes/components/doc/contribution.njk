@@ -1,5 +1,5 @@
 {# retutn to main after tests #}
-{% set ghLink = "https://github.com/zirreal/robonomics-wik-reworki/blob/main/src" + page.filePathStem + ".md" %}
+{% set ghLink = "https://github.com/zirreal/zirreal.github.io/blob/main/src" + page.filePathStem + ".md" %}
 					        
 {% if github.length %}
 
@@ -31,7 +31,7 @@
 
 		{% if ghLastUpdate.length %}
 		<div class="head">
-			Latest <a target="_blank" href="{{ghLastUpdate[0].url}}">{{'commit' | t}}</a> {{'on' | t}} {{ghLastUpdate[0].date | readableDate("dd.MM.yyyy")}} {{'by' | t}} {{ghLastUpdate[0].author}}
+			 <a target="_blank" class="submit" href="{{ghLastUpdate[0].url}}"> Latest {{'commit' | t}}</a> {{'on' | t}} {{ghLastUpdate[0].date | readableDate("dd.MM.yyyy")}} {{'by' | t}} {{ghLastUpdate[0].author}}
 		</div>
 		{%  endif %}
 

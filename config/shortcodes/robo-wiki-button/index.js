@@ -19,7 +19,7 @@ const roboWikiButton = (...args) => {
 		<a class="button inline-block ${type} button__${size} ${block ? 'button__block' : ''} ${extraCls}" href="${link}">${!label && additionalText != '' ? '<span class="additional-text">' + additionalText + '</span>' : ''} ${label || content}</a>`
 	} else {
 		return `
-		<button type="button" class="button inline-block ${type} button__${size} ${block ? 'button__block' : ''}"  :disabled="${disabled}"> ${label || content}</button>`
+		<button type="button" class="button inline-block ${extraCls, type} button__${size} ${block ? 'button__block' : ''}"  :disabled="${disabled}"> ${label || content}</button>`
 	}
 }
 

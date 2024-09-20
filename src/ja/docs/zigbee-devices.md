@@ -3,7 +3,7 @@ title: Zigbee2MQTT での Zigbee デバイス
 
 contributors: [nakata5321, PaTara43]
 tools:
-  - Zigbee2MQTT 1.37.1
+  - Zigbee2MQTT 1.38.0
     https://github.com/Koenkk/zigbee2mqtt/
 
 ---
@@ -31,6 +31,6 @@ Zigbee2MQTT のウェブインターフェースが表示されます:
 
 {% roboWikiPicture {src:"docs/home-assistant/device_connected.jpg", alt:"device_connected"} %}{% endroboWikiPicture %}
 
-これで、Home Assistant WebUI でこのセンサーを表示できるはずです。`Settings` -> `Devices & Services` -> `Devices` に移動します。
+これで、Home Assistant WebUI でこのセンサーが表示されるはずです。`Settings` -> `Devices & Services` -> `Devices` に移動します。
 
 すべてのセンサーを追加したら、Zigbee2MQTT のウェブインターフェースを閉じることができます。

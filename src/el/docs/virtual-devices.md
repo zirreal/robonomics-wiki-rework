@@ -6,6 +6,8 @@ contributors: [nakata5321]
 
 **Αυτό το άρθρο θα σας δείξει πώς να δημιουργήσετε εικονικές συσκευές σε ένα έξυπνο σπίτι, ώστε να μπορείτε να δείτε πώς φαίνεται η πλατφόρμα στην πράξη.**
 
+{% roboWikiPicture {src:"docs/home-assistant/virtual-sensors.png", alt:"εικονικός αισθητήρας"} %}{% endroboWikiPicture %}
+
 ## Εγκατάσταση ολοκλήρωσης
 
 Για να χρησιμοποιήσετε εικονικές συσκευές, πρέπει να εγκαταστήσετε την ["demo" ολοκλήρωση](https://www.home-assistant.io/integrations/demo/).
@@ -25,8 +27,7 @@ demo:
 
 {% endcodeHelper %}
 
-
-Μετά από αυτό, επανεκκινήστε το Home Assistant μέσω της διεπαφής ιστού. Όταν επανεκκινηθεί το έξυπνο σπίτι, μπορείτε να βρείτε όλες τις εικονικές συσκευές στις "demo" οντότητες.
+Μετά από αυτό, επανεκκινήστε το Home Assistant μέσω της διεπαφής ιστού. Όταν το έξυπνο σπίτι επανεκκινηθεί, μπορείτε να βρείτε όλες τις εικονικές συσκευές στις οντότητες "demo".
 Βρείτε τις στο `Ρυθμίσεις -> Συσκευές & υπηρεσίες -> Demo`. Όλες αυτές οι οντότητες μπορούν να προστεθούν στον πίνακα ελέγχου σας.
 
-{% roboWikiPicture {src:"docs/home-assistant/demo-entities.png", alt:"demo-entities"} %}{% endroboWikiPicture %}
+{% roboWikiPicture {src:"docs/home-assistant/demo-entities.png", alt:"demo-οντότητες"} %}{% endroboWikiPicture %}
