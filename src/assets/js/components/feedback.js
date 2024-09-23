@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function ()  {
 	const feedbackFormsCloseButton = document?.querySelectorAll('.robo-wiki-feedback-form__close');
 	const signupCaptcha = document?.getElementById('signupCaptcha');
 
-	signupCaptcha.setAttribute("jsapi", "https://hcaptcha.com/1/api.js");
-
 	let currForm = null;
 
 	// remove all active statuses from reaction item

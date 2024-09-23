@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 		const toggleAutoplay = (video) => {
 			video.muted = true;
 				let playPromise = video.play();
-				console.log(playPromise)
 				if (playPromise && playPromise !== undefined) {
 					playPromise.then((_) => {
 						let observer = new IntersectionObserver(
@@ -30,6 +29,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 							{threshold: 0.8}
 						);
 						observer.observe(video);
+				}).catch(rej => {
+					// console.log(rej, ' => ')
 				});
 			}
 		}

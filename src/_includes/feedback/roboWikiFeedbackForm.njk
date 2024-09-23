@@ -1,4 +1,4 @@
-  <div class="robo-wiki-feedback-form__wrapper" data-form="{{text}}">
+<div class="robo-wiki-feedback-form__wrapper" data-form="{{text}}">
 
     <div class="robo-wiki-feedback-form__header">
       <div>
@@ -18,7 +18,10 @@
 			<h-captcha id="signupCaptcha"
 				site-key="{{vars.hcaptcha}}"
 				size="invisible"
-				tabindex="0"></h-captcha>
+				tabindex="0"
+        jsapi="https://js.hcaptcha.com/1/api.js?onload=onLoad" 
+      >
+      </h-captcha>
 
       <div>
         <input type="email" placeholder="Your email" data-gsp-name="Email" required />
