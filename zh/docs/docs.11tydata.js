@@ -837,7 +837,7 @@
       </div>
     </button>
 		
-		  <div class="robo-wiki-feedback-form__wrapper" data-form="Couldn&#39;t complete">
+		<div class="robo-wiki-feedback-form__wrapper" data-form="Couldn&#39;t complete">
 
     <div class="robo-wiki-feedback-form__header">
       <div>
@@ -857,7 +857,10 @@
 			<h-captcha id="signupCaptcha"
 				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
-				tabindex="0"></h-captcha>
+				tabindex="0"
+        jsapi="https://js.hcaptcha.com/1/api.js?onload=onLoad" 
+      >
+      </h-captcha>
 
       <div>
         <input type="email" placeholder="Your email" data-gsp-name="Email" required />
@@ -966,7 +969,7 @@
       </div>
     </button>
 		
-		  <div class="robo-wiki-feedback-form__wrapper" data-form="It was hard">
+		<div class="robo-wiki-feedback-form__wrapper" data-form="It was hard">
 
     <div class="robo-wiki-feedback-form__header">
       <div>
@@ -986,7 +989,10 @@
 			<h-captcha id="signupCaptcha"
 				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
-				tabindex="0"></h-captcha>
+				tabindex="0"
+        jsapi="https://js.hcaptcha.com/1/api.js?onload=onLoad" 
+      >
+      </h-captcha>
 
       <div>
         <input type="email" placeholder="Your email" data-gsp-name="Email" required />
@@ -1095,7 +1101,7 @@
       </div>
     </button>
 		
-		  <div class="robo-wiki-feedback-form__wrapper" data-form="It was ok">
+		<div class="robo-wiki-feedback-form__wrapper" data-form="It was ok">
 
     <div class="robo-wiki-feedback-form__header">
       <div>
@@ -1115,7 +1121,10 @@
 			<h-captcha id="signupCaptcha"
 				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
-				tabindex="0"></h-captcha>
+				tabindex="0"
+        jsapi="https://js.hcaptcha.com/1/api.js?onload=onLoad" 
+      >
+      </h-captcha>
 
       <div>
         <input type="email" placeholder="Your email" data-gsp-name="Email" required />
@@ -1224,7 +1233,7 @@
       </div>
     </button>
 		
-		  <div class="robo-wiki-feedback-form__wrapper" data-form="It was easy">
+		<div class="robo-wiki-feedback-form__wrapper" data-form="It was easy">
 
     <div class="robo-wiki-feedback-form__header">
       <div>
@@ -1244,7 +1253,10 @@
 			<h-captcha id="signupCaptcha"
 				site-key="202044b8-9b52-43ec-9f40-a2c81dbe17fc"
 				size="invisible"
-				tabindex="0"></h-captcha>
+				tabindex="0"
+        jsapi="https://js.hcaptcha.com/1/api.js?onload=onLoad" 
+      >
+      </h-captcha>
 
       <div>
         <input type="email" placeholder="Your email" data-gsp-name="Email" required />
@@ -1378,7 +1390,7 @@
 					
 					
 					
-		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+%E5%88%9B%E5%BB%BA%E7%94%B1%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%BF%90%E8%A1%8C%E7%9A%84%E6%95%B0%E5%AD%97%E8%BA%AB%E4%BB%BD"> 创建一个问题</a>
+		<a class="button inline-block primary button__small  " href="https://github.com/airalab/robonomics-wiki/issues/new?assignees=&labels=documentation&template=doc-issue.md&title=issue+for+document+page+-+1%E7%BB%84%E6%99%BA%E8%83%BD%E5%BC%80%E5%85%B3"> 创建一个问题</a>
         </div>
 			</div>
 			  <a class="question__link" href="https://discord.com/invite/JpaN2XAmqY">
